@@ -1,0 +1,5 @@
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\bin\Debug\TeduShop.Common.dll
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\bin\Debug\TeduShop.Common.pdb
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.dll
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.pdb

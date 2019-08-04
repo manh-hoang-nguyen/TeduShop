@@ -1,0 +1,15 @@
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Service.dll
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Service.pdb
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Common.dll
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Data.dll
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Model.dll
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Common.pdb
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Data.pdb
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Data.dll.config
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Model.pdb
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\bin\Debug\TeduShop.Model.dll.config
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\obj\Debug\TeduShop.Service.csprojAssemblyReference.cache
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\obj\Debug\TeduShop.Service.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\obj\Debug\TeduShop.Service.csproj.CopyComplete
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\obj\Debug\TeduShop.Service.dll
+C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Service\obj\Debug\TeduShop.Service.pdb
