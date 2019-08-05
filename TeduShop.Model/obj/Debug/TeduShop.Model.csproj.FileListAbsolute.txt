@@ -9,3 +9,15 @@ C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Model\bin\Debug\EntityFramework.S
 C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Model\bin\Debug\EntityFramework.xml
 C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Model\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Model\obj\Debug\TeduShop.Model.csproj.CopyComplete
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\TeduShop.Model.dll.config
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\TeduShop.Model.dll
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\TeduShop.Model.pdb
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\EntityFramework.dll
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\EntityFramework.xml
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csprojAssemblyReference.cache
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csproj.CopyComplete
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.dll
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.pdb
