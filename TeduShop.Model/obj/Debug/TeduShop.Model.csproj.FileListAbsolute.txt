@@ -20,3 +20,4 @@ C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\D
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csproj.CopyComplete
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.dll
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.pdb
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csprojAssemblyReference.cache
