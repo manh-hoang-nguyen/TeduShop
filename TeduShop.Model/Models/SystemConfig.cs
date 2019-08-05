@@ -7,16 +7,15 @@ namespace TeduShop.Model.Models
     public class SystemConfig
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int Id { set; get; }
+        public int ID { set; get; }
 
         [Required]
-        [MaxLength(50)]
         [Column(TypeName = "varchar")]
+        [MaxLength(50)]
         public string Code { set; get; }
 
         [MaxLength(50)]
-        public string Value { set; get; }
+        public string ValueString { set; get; }
 
         public int? ValueInt { set; get; }
     }

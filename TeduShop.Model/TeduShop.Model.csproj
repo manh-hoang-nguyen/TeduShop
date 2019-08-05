@@ -50,10 +50,6 @@
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="Abstract\ISeoable.cs" />
-    <Compile Include="Abstract\ISwitchable.cs" />
-    <Compile Include="Abstract\Seoable.cs" />
-    <Compile Include="Abstract\Switchable.cs" />
     <Compile Include="Models\Footer.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuGroup.cs" />

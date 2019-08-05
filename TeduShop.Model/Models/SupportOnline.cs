@@ -1,40 +1,39 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using TeduShop.Model.Abstract;
 
 namespace TeduShop.Model.Models
 {
-    public class SupportOnline : ISwitchable
+    [Table("SupportOnlines")]
+    public class SupportOnline
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int Id { set; get; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { set; get; }
 
         [Required]
         [MaxLength(50)]
         public string Name { set; get; }
 
         [MaxLength(50)]
-        public string Departement;
+        public string Department { set; get; }
 
         [MaxLength(50)]
-        public string Skype;
+        public string Skype { set; get; }
 
         [MaxLength(50)]
-        public string Mobile;
+        public string Mobile { set; get; }
 
         [MaxLength(50)]
-        public string Email;
+        public string Email { set; get; }
 
         [MaxLength(50)]
-        public string Yahoo;
+        public string Yahoo { set; get; }
 
         [MaxLength(50)]
-        public string Facebook;
+        public string Facebook { set; get; }
+
+        public bool Status { set; get; }
 
         public int? DisplayOrder { set; get; }
-
-        [MaxLength(50)]
-        public bool Status { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
     }
 }

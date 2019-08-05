@@ -16,7 +16,6 @@ C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\D
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\EntityFramework.xml
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csprojAssemblyReference.cache
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csproj.CoreCompileInputs.cache
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.csproj.CopyComplete
 C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Model\obj\Debug\TeduShop.Model.dll

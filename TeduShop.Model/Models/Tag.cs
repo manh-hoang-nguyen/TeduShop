@@ -7,11 +7,16 @@ namespace TeduShop.Model.Models
     public class Tag
     {
         [Key]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        [MaxLength(50)] //Post tag co do dai la 50 thi tag cung phai co do dai la 50
-        public int Id { set; get; }
+        [MaxLength(50)]
+        [Column(TypeName = "varchar")]
+        public string ID { set; get; }
 
-        public string Name;
-        public string Type;
+        [MaxLength(50)]
+        [Required]
+        public string Name { set; get; }
+
+        [MaxLength(50)]
+        [Required]
+        public string Type { set; get; }
     }
 }

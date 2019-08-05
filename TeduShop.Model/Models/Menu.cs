@@ -7,8 +7,8 @@ namespace TeduShop.Model.Models
     public class Menu
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int Id { set; get; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { set; get; }
 
         [Required]
         [MaxLength(50)]
@@ -16,15 +16,15 @@ namespace TeduShop.Model.Models
 
         [Required]
         [MaxLength(256)]
-        public string Url { set; get; }
+        public string URL { set; get; }
 
         public int? DisplayOrder { set; get; }
 
         [Required]
-        public int GroupId { set; get; }
+        public int GroupID { set; get; }
 
-        [ForeignKey("GroupeId")]
-        public virtual MenuGroup MenuGroup { set; get; }// viet nhu the nay thi groupeId tro den khoa chinh cua MenuGroup
+        [ForeignKey("GroupID")]
+        public virtual MenuGroup MenuGroup { set; get; }
 
         [MaxLength(10)]
         public string Target { set; get; }

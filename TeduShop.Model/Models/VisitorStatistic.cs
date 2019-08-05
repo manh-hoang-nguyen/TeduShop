@@ -8,8 +8,7 @@ namespace TeduShop.Model.Models
     public class VisitorStatistic
     {
         [Key]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public Guid Id { set; get; }
+        public Guid ID { set; get; }
 
         [Required]
         public DateTime VisitedDate { set; get; }

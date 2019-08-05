@@ -7,19 +7,18 @@ namespace TeduShop.Model.Models
     public class PostTag
     {
         [Key]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int PostId { set; get; }
+        [Column(Order = 1)]
+        public int PostID { set; get; }
 
         [Key]
-        [Column(TypeName = "varchar")]
+        [Column(TypeName = "varchar", Order = 2)]
         [MaxLength(50)]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int TagId { set; get; }
+        public string TagID { set; get; }
 
-        [ForeignKey("PostId")]
+        [ForeignKey("PostID")]
         public virtual Post Post { set; get; }
 
-        [ForeignKey("TagId")]
+        [ForeignKey("TagID")]
         public virtual Tag Tag { set; get; }
     }
 }

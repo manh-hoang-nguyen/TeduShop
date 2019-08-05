@@ -3,3 +3,9 @@ C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\bin\Debug\TeduShop.Common.
 C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.csproj.CoreCompileInputs.cache
 C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.dll
 C:\Users\NGUYEN\source\repos\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.pdb
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Common\bin\Debug\TeduShop.Common.dll
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Common\bin\Debug\TeduShop.Common.pdb
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Common\obj\Debug\TeduShop.Common.csprojAssemblyReference.cache
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Common\obj\Debug\TeduShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Common\obj\Debug\TeduShop.Common.dll
+C:\Users\NGUYEN\Documents\_Programmation\_SourceCode_forGit\TeduShop.Common\obj\Debug\TeduShop.Common.pdb

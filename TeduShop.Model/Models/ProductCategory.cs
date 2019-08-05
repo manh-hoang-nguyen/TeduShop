@@ -5,18 +5,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 using TeduShop.Model.Abstract;
 
 namespace TeduShop.Model.Models
-
 {
     [Table("ProductCategories")]
-    public class ProductCategory : ISeoable, IAuditable, ISwitchable
+    public class ProductCategory : Auditable
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int Id;
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { set; get; }
 
         [Required]
         [MaxLength(256)]
-        public string Name;
+        public string Name { set; get; }
 
         [Required]
         [MaxLength(256)]
@@ -24,19 +23,13 @@ namespace TeduShop.Model.Models
 
         [MaxLength(500)]
         public string Description { set; get; }
+        public int? ParentID { set; get; }
+        public int? DisplayOrder { set; get; }
 
-        public int? ParentId { set; get; }
-        public int? DisplayOrder { get; set; }
+        [MaxLength(256)]
         public string Image { set; get; }
-        public bool? HomeFlag { set; get; }
 
-        public string MateKeyword { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
-        public string MateDescription { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
-        public DateTime? CreatedDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime? UpdatedDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string UpdatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool? HomeFlag { set; get; }
 
         public virtual IEnumerable<Product> Products { set; get; }
     }

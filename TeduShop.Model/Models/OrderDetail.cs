@@ -7,19 +7,19 @@ namespace TeduShop.Model.Models
     public class OrderDetail
     {
         [Key]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int OrderId { set; get; }
+        [Column(Order = 1)]
+        public int OrderID { set; get; }
 
         [Key]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int ProductId { set; get; }
+        [Column(Order = 2)]
+        public int ProductID { set; get; }
 
-        public int? Quantity { set; get; }
+        public int Quantitty { set; get; }
 
-        [ForeignKey("OrderId")]
+        [ForeignKey("OrderID")]
         public virtual Order Order { set; get; }
 
-        [ForeignKey("ProductId")]
+        [ForeignKey("ProductID")]
         public virtual Product Product { set; get; }
     }
 }

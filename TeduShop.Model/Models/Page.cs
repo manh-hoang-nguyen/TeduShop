@@ -1,28 +1,25 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using TeduShop.Model.Abstract;
 
 namespace TeduShop.Model.Models
 {
     [Table("Pages")]
-    public class Page
+    public class Page : Auditable
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int Id;
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { set; get; }
 
         [Required]
         [MaxLength(256)]
-        public string Name;
+        public string Name { set; get; }
 
-        [Column(TypeName = "varchar")]//chi ra kieu du lieu cua alias la varchar
-        [Required]
+        [Column(TypeName = "varchar")]
         [MaxLength(256)]
+        [Required]
         public string Alias { set; get; }
 
-        public string Content;
-
-        //public string MateKeyword { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        //public string MateDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        //public bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Content { set; get; }
     }
 }

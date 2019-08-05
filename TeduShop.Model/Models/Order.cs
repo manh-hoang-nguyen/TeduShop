@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using TeduShop.Model.Abstract;
 
 namespace TeduShop.Model.Models
 {
     [Table("Orders")]
-    public class Order : ISwitchable
+    public class Order
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public int Id { set; get; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { set; get; }
 
         [Required]
         [MaxLength(256)]
@@ -19,7 +18,7 @@ namespace TeduShop.Model.Models
 
         [Required]
         [MaxLength(256)]
-        public string CustomerAdrress { set; get; }
+        public string CustomerAddress { set; get; }
 
         [Required]
         [MaxLength(256)]
@@ -33,15 +32,13 @@ namespace TeduShop.Model.Models
         [MaxLength(256)]
         public string CustomerMessage { set; get; }
 
-        public DateTime? CreatedDate { set; get; }
-        public string CreatedBy { set; get; }
-
         [MaxLength(256)]
         public string PaymentMethod { set; get; }
 
+        public DateTime? CreatedDate { set; get; }
+        public string CreatedBy { set; get; }
         public string PaymentStatus { set; get; }
-
-        public bool Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool Status { set; get; }
 
         public virtual IEnumerable<OrderDetail> OrderDetails { set; get; }
     }

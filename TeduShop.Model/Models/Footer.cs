@@ -8,8 +8,7 @@ namespace TeduShop.Model.Models
     {
         [Key]
         [MaxLength(50)]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] //Chi ra cho Id tu dong tang
-        public string Id { set; get; }
+        public string ID { set; get; }
 
         [Required]
         public string Content { set; get; }
